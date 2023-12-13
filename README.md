@@ -21,5 +21,5 @@ Install my-project with npm
     
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
+![Bubble Sort](https://github.com/1711naveen/Sorting-Visualiser/assets/139497591/e058bf8e-a6ce-42e5-b8f6-9b5da9a0fe3d)
