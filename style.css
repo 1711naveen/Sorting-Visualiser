@@ -1,0 +1,14 @@
+.bar{
+    width: 18px;
+    background-color: blue;
+    margin: 4px;
+}
+#barGraph{
+    height: 500px;
+}
+body{
+    background-color: pink;
+}
+h3{
+    text-decoration: underline;
+}
