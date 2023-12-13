@@ -38,7 +38,7 @@ function sort() {
     animate(moves);
 }
 
-function stop(){
+function stop() {
     alert('Code execution stopped!');
     return;
 }
@@ -64,10 +64,79 @@ function showBars(move) {
         const bar = document.createElement('div');
         bar.style.height = array[i] * 100 + "%";
         bar.classList.add("bar");
-        if(move && move.includes(i)){
+        if (move && move.includes(i)) {
             bar.style.backgroundColor = "red";
         }
         barGraph.appendChild(bar);
     }
 }
+
+// Insertion Sort
+//Time Complexity -O(n^2)
+
+function insertionSort(arr) {
+    const n = arr.length;
+    let key, j;
+    for (let i = 1; i < n; i++) {
+        key = arr[i];
+        j = i - 1;
+
+        /* Move elements of arr[0..i-1], that are  
+        greater than key, to one position ahead  
+        of their current position */
+        while (j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j = j - 1;
+        }
+        arr[j + 1] = key;
+    }
+}
+
+//Selection Sort
+//Time Complexity -O(n^2)
+
+function selectionSort(arr, n) {
+    let min_idx;
+    for (let i = 0; i < n - 1; i++) {
+        min_idx = i;
+        for (let j = i + 1; j < n; j++) {
+            if (arr[j] < arr[min_idx])
+                min_idx = j;
+        }
+        let temp = arr[min_idx];
+        arr[min_idx] = arr[i];
+        arr[i] = temp;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 console.log(array);
