@@ -26,7 +26,7 @@ Install my-project with npm
 
 ## Live Link
 
+
 Click to see the live running Web page
-```bash
+
 https://1711naveen.github.io/Sorting-Visualiser/
-```
