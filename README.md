@@ -18,11 +18,6 @@ Install my-project with npm
   # Run
     Click on index.html to run
 ```
-    
-## Screenshots
-
-
-![Bubble Sort](https://github.com/1711naveen/Sorting-Visualiser/assets/139497591/e058bf8e-a6ce-42e5-b8f6-9b5da9a0fe3d)
 
 ## Live Link
 
@@ -30,3 +25,10 @@ Install my-project with npm
 Click to see the live running Web page
 
 https://1711naveen.github.io/Sorting-Visualiser/
+    
+## Screenshots
+
+
+![Bubble Sort](https://github.com/1711naveen/Sorting-Visualiser/assets/139497591/e058bf8e-a6ce-42e5-b8f6-9b5da9a0fe3d)
+
+
