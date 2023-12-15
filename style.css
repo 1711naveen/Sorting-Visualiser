@@ -1,9 +1,17 @@
-.bar{
+.barForBubble{
+    width: 18px;
+    background-color: blue;
+    margin: 4px;
+}
+.barForSelection{
     width: 18px;
     background-color: blue;
     margin: 4px;
 }
 #barGraph{
+    height: 500px;
+}
+#selection{
     height: 500px;
 }
 body{
